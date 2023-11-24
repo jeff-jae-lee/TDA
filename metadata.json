@@ -1,0 +1,34 @@
+{
+    "METADATA_SPEC_VERSION": "SINGLE_TABLE_V1",
+    "primary_key": "House_ID",
+    "columns": {
+        "MedianAge": {
+            "sdtype": "numerical"
+        },
+        "AllRooms": {
+            "sdtype": "numerical"
+        },
+        "total_bedrooms": {
+            "sdtype": "numerical"
+        },
+        "population": {
+            "sdtype": "numerical"
+        },
+        "households": {
+            "sdtype": "numerical"
+        },
+        "MedianIncome": {
+            "sdtype": "numerical"
+        },
+        "MedianValue": {
+            "sdtype": "numerical"
+        },
+        "OceanProximity": {
+            "sdtype": "categorical"
+        },
+        "House_ID": {
+            "sdtype": "id",
+            "regex_format": "[0-9]{1,5}"
+        }
+    }
+}
